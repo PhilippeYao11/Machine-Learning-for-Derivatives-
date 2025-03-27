@@ -1,6 +1,6 @@
 # 📘  Machine learning and derivatives pricing
 
-This repository contains a set of **mini projects demonstrating the application of neural networks to derivag=tives pricing and hedging**. It is designed with a practical and educational focus, using simulated data.
+This repository contains a set of **mini projects demonstrating the application of neural networks to derivatives pricing and hedging**. It is designed with a practical and educational focus, using simulated data.
 
 
 ## 💼 Financial Applications
