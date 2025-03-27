@@ -1,25 +1,30 @@
-# Machine-Learning-for-Derivatives-
+# 📘  Machine learning and derivatives pricing
 
-Ce repository regroupe un **ensemble de mini-projets illustrant l'application du Machine Learning en Finance**. L'accent est mis sur l'approximation par **réseaux de neurones**, à travers des exemples concrets et des données simulées.
+This repository contains a set of **mini projects demonstrating the application of neural networks to derivag=tives pricing and hedging**. It is designed with a practical and educational focus, using simulated data.
 
-## 🧠 Objectifs pédagogiques
 
-Ces projets ont pour but de :
-- Présenter des **notions fondamentales en apprentissage supervisé** ;
-- Illustrer l'utilisation de **réseaux de neurones** (Feedforward Neural Networks) ;
-- Appliquer des algorithmes comme **Adam** à des problématiques financières ;
-- Introduire l’usage de **PyTorch** dans un contexte appliqué.
+## 💼 Financial Applications
 
-## 💼 Applications abordées
+### 🟦 Pricing American Options
 
-Les projets couvrent notamment :
-- Le **pricing d’options américaines**, via des techniques d’arrêt optimal et de régression Monte Carlo ;
-- La **couverture (hedging) d’options européennes**, avec des approches classiques (delta-neutre) et avancées (mean-quadratic hedging).
+We focus on the **pricing of American options**, which involves **optimal stopping theory**.
 
-## 🛠️ Technologies
+We explore:
+- The **Snell envelope** framework to model the optimal exercise strategy,
+- The **Longstaff-Schwartz algorithm**, which uses **Monte Carlo regression** to estimate continuation values,
+- The use of **neural networks** to improve flexibility and generalization in approximating these continuation values.
 
-- Python
-- PyTorch
-- Jupyter Notebooks
+### 🟨 Hedging European Options
+
+The second project addresses the **hedging of European options**:
+- A review of **delta-neutral hedging** strategies,
+- Exploration of **mean-quadratic hedging**, minimizing the quadratic error between portfolio value and payoff,
+
+
+## 🛠️ Tools and Technologies
+
+- **Python**
+- **PyTorch**
+- **Jupyter Notebooks**
 
 
